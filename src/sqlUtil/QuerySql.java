@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.HashMap;
 
-public class querySql {
+public class QuerySql {
 
 	public static HashMap<String,String> queryUtil(String queryId) {
 		ResultSet rs ;
