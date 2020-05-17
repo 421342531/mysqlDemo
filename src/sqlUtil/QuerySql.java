@@ -42,8 +42,17 @@ public class QuerySql {
 				hashMap.put("inPrice", inPriceout);
 				hashMap.put("salePrice", salePriceout);
 				hashMap.put("mark", markout);
+				System.out.println(
+						"id:"+idout+
+						" inprice:"+inPriceout+
+						" salePriceout:"+salePriceout+
+						" markout:"+markout);
 				
 			}
+			
+			
+			
+			
 		 }catch(Exception e) {
 			 e.printStackTrace();
 		 }
